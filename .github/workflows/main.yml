@@ -1,0 +1,32 @@
+name: Check for Google IP updates
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 * * * *'
+
+jobs:
+  check-ips:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Check for updates
+        run: bash check-ips.sh
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add --all
+          git add *
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Google IP changes [ci skip]'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
