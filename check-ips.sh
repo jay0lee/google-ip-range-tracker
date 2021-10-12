@@ -12,4 +12,6 @@ while read line; do
 	continue
     fi
     jq --sort-keys . "${filename}" | tee "${filename}"
+    echo "${filename}"
+    cat "${filename}"
 done < ip-urls.txt
