@@ -11,7 +11,7 @@ while read line; do
         echo "${url} failed with $result!"
 	continue
     fi
-    jq --sort-keys . "${filename}" | tee "${filename}"
-    echo "${filename}"
-    cat "${filename}"
+    tmpfile=$(mktemp)
+    jq --sort-keys . "${filename}" > $tmpfile
+    cat $tmpfile > $filename
 done < ip-urls.txt
