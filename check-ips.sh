@@ -12,6 +12,7 @@ while read line; do
 	continue
     fi
     tmpfile=$(mktemp)
-    jq --sort-keys . "${filename}" > $tmpfile
+    # remove syncToken and creationTime so we only diff actual IPs
+    jq --sort-keys 'del(.syncToken, .creationTime)' "${filename}" > $tmpfile
     cat $tmpfile > $filename
 done < ip-urls.txt
