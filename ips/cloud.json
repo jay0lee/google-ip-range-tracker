@@ -1,5 +1,4 @@
 {
-  "creationTime": "2021-10-18T10:04:33.398409",
   "prefixes": [
     {
       "ipv4Prefix": "34.80.0.0/15",
@@ -2221,6 +2220,5 @@
       "scope": "us-west4",
       "service": "Google Cloud"
     }
-  ],
-  "syncToken": "1634576673398"
+  ]
 }
