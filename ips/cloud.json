@@ -1186,6 +1186,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.110.128.0/17",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.111.0.0/16",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.116.0.0/21",
       "scope": "global",
       "service": "Google Cloud"
