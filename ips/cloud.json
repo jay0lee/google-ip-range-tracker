@@ -1431,6 +1431,21 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.104.50.0/23",
+      "scope": "southamerica-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.127.178.0/23",
+      "scope": "southamerica-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.176.0.0/16",
+      "scope": "southamerica-west1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "8.34.210.0/24",
       "scope": "us-central1",
       "service": "Google Cloud"
