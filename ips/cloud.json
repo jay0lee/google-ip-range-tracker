@@ -1016,6 +1016,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.157.48.0/20",
+      "scope": "europe-west3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.176.0/20",
+      "scope": "europe-west3",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.159.0.0/16",
       "scope": "europe-west3",
       "service": "Google Cloud"
