@@ -1436,6 +1436,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.118.128.0/18",
+      "scope": "northamerica-northeast1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.124.12.0/22",
       "scope": "northamerica-northeast1",
       "service": "Google Cloud"
