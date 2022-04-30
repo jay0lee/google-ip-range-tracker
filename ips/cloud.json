@@ -2386,6 +2386,26 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.157.46.0/23",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.174.0/23",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.174.0.0/16",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv6Prefix": "2600:1901:8140::/44",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.82.0.0/15",
       "scope": "us-west1",
       "service": "Google Cloud"
