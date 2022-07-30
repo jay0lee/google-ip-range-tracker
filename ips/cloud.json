@@ -446,6 +446,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.157.87.0/24",
+      "scope": "asia-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.215.0/24",
+      "scope": "asia-south1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "35.200.128.0/17",
       "scope": "asia-south1",
       "service": "Google Cloud"
@@ -1797,6 +1807,11 @@
     },
     {
       "ipv4Prefix": "23.251.144.0/20",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.16.0.0/17",
       "scope": "us-central1",
       "service": "Google Cloud"
     },
