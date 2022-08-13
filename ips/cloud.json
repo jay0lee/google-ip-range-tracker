@@ -416,11 +416,6 @@
       "service": "Google Cloud"
     },
     {
-      "ipv6Prefix": "2404:f340::/44",
-      "scope": "asia-northeast3",
-      "service": "Google Cloud"
-    },
-    {
       "ipv6Prefix": "2600:1901:8180::/44",
       "scope": "asia-northeast3",
       "service": "Google Cloud"
@@ -682,11 +677,6 @@
     },
     {
       "ipv4Prefix": "35.219.0.0/17",
-      "scope": "asia-southeast2",
-      "service": "Google Cloud"
-    },
-    {
-      "ipv6Prefix": "2404:f340:4000::/44",
       "scope": "asia-southeast2",
       "service": "Google Cloud"
     },
