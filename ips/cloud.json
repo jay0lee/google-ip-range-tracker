@@ -2746,6 +2746,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.16.128.0/17",
+      "scope": "us-west4",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.104.72.0/22",
       "scope": "us-west4",
       "service": "Google Cloud"
