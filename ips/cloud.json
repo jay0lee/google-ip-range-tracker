@@ -1591,6 +1591,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.0.64.0/19",
+      "scope": "me-west1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.157.90.0/23",
       "scope": "me-west1",
       "service": "Google Cloud"
