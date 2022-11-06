@@ -1681,6 +1681,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.0.32.0/20",
+      "scope": "northamerica-northeast2",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.104.114.0/23",
       "scope": "northamerica-northeast2",
       "service": "Google Cloud"
