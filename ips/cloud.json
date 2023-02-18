@@ -1126,6 +1126,26 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.17.0.0/16",
+      "scope": "europe-west12",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.124.0/23",
+      "scope": "europe-west12",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.250.0/23",
+      "scope": "europe-west12",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv6Prefix": "2600:1901:81b0::/44",
+      "scope": "europe-west12",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.89.0.0/17",
       "scope": "europe-west2",
       "service": "Google Cloud"
@@ -1658,6 +1678,26 @@
     {
       "ipv6Prefix": "2600:1901::/48",
       "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.18.0.0/16",
+      "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.126.0/23",
+      "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.157.252.0/23",
+      "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv6Prefix": "2600:1901:81c0::/44",
+      "scope": "me-central1",
       "service": "Google Cloud"
     },
     {
