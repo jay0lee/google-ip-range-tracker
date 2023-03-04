@@ -906,6 +906,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.0.192.0/19",
+      "scope": "europe-southwest1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.157.44.0/23",
       "scope": "europe-southwest1",
       "service": "Google Cloud"
@@ -1957,6 +1962,11 @@
     },
     {
       "ipv4Prefix": "34.28.0.0/14",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.33.0.0/16",
       "scope": "us-central1",
       "service": "Google Cloud"
     },
