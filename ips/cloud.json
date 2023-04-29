@@ -1551,6 +1551,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.36.0.0/16",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.95.64.0/18",
       "scope": "global",
       "service": "Google Cloud"
@@ -1908,6 +1913,11 @@
     {
       "ipv6Prefix": "2600:1900:40f0::/44",
       "scope": "southamerica-east1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.0.48.0/20",
+      "scope": "southamerica-west1",
       "service": "Google Cloud"
     },
     {
