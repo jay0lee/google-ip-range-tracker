@@ -966,6 +966,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.34.128.0/18",
+      "scope": "europe-west1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.76.0.0/14",
       "scope": "europe-west1",
       "service": "Google Cloud"
