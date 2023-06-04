@@ -751,6 +751,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.128.36.0/24",
+      "scope": "australia-southeast1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.128.48.0/24",
+      "scope": "australia-southeast1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.151.64.0/18",
       "scope": "australia-southeast1",
       "service": "Google Cloud"
@@ -833,6 +843,11 @@
     {
       "ipv6Prefix": "2600:1900:41c0::/44",
       "scope": "australia-southeast2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.0.240.0/20",
+      "scope": "europe-central2",
       "service": "Google Cloud"
     },
     {
@@ -1167,6 +1182,11 @@
     },
     {
       "ipv4Prefix": "34.127.186.0/23",
+      "scope": "europe-west2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.128.52.0/22",
       "scope": "europe-west2",
       "service": "Google Cloud"
     },
@@ -1977,6 +1997,11 @@
     },
     {
       "ipv4Prefix": "23.251.144.0/20",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.0.225.0/24",
       "scope": "us-central1",
       "service": "Google Cloud"
     },
