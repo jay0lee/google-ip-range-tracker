@@ -746,6 +746,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.40.128.0/17",
+      "scope": "australia-southeast1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.87.192.0/18",
       "scope": "australia-southeast1",
       "service": "Google Cloud"
@@ -1337,6 +1342,11 @@
     },
     {
       "ipv4Prefix": "34.0.226.0/24",
+      "scope": "europe-west3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.40.0.0/17",
       "scope": "europe-west3",
       "service": "Google Cloud"
     },
