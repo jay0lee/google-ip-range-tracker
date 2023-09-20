@@ -1,6 +1,26 @@
 {
   "prefixes": [
     {
+      "ipv4Prefix": "34.35.0.0/16",
+      "scope": "africa-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.152.86.0/23",
+      "scope": "africa-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.177.50.0/23",
+      "scope": "africa-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv6Prefix": "2600:1900:8000::/44",
+      "scope": "africa-south1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.80.0.0/15",
       "scope": "asia-east1",
       "service": "Google Cloud"
