@@ -2116,16 +2116,6 @@
       "service": "Google Cloud"
     },
     {
-      "ipv4Prefix": "34.153.33.0/24",
-      "scope": "southamerica-west1",
-      "service": "Google Cloud"
-    },
-    {
-      "ipv4Prefix": "34.153.225.0/24",
-      "scope": "southamerica-west1",
-      "service": "Google Cloud"
-    },
-    {
       "ipv4Prefix": "34.176.0.0/16",
       "scope": "southamerica-west1",
       "service": "Google Cloud"
