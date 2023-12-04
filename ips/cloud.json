@@ -1681,6 +1681,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.49.0.0/16",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.95.64.0/18",
       "scope": "global",
       "service": "Google Cloud"
