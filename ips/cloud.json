@@ -721,6 +721,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.34.216.0/21",
+      "scope": "asia-southeast2",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.101.18.0/24",
       "scope": "asia-southeast2",
       "service": "Google Cloud"
