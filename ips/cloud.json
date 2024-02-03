@@ -386,6 +386,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.47.64.0/18",
+      "scope": "asia-northeast3",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.64.32.0/19",
       "scope": "asia-northeast3",
       "service": "Google Cloud"
