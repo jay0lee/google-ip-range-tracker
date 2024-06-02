@@ -601,6 +601,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipv4Prefix": "34.1.192.0/20",
+      "scope": "asia-southeast1",
+      "service": "Google Cloud"
+    },
+    {
       "ipv4Prefix": "34.21.128.0/17",
       "scope": "asia-southeast1",
       "service": "Google Cloud"
@@ -902,6 +907,11 @@
     },
     {
       "ipv4Prefix": "34.0.16.0/20",
+      "scope": "australia-southeast2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipv4Prefix": "34.1.176.0/20",
       "scope": "australia-southeast2",
       "service": "Google Cloud"
     },
