@@ -37,8 +37,12 @@ def main():
     if len(cidrs) != 2:
         raise ValueError("ERROR: Could process data from Google")
     goog_default_ips = {'prefixes': []}
-    for ip in (cidrs["goog"] - cidrs["cloud"]).iter_cidrs():
-        print(type(ip))
+    for ip_range in (cidrs["goog"] - cidrs["cloud"]).iter_cidrs():
+        if netaddr.is_ipv4(ip_range.ip):
+            key = 'ipv4Prefix'
+        else:
+            key = 'ipv6Prefix'
+        goog_default_ips.append({key: ip_range.cidr})
     filepath = 'scripts/goog-default.json'
     with open(filepath, 'w') as f:
         f.write(json.dumps(goog_default_ips))
