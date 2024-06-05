@@ -17,7 +17,12 @@ IPRANGE_URLS = {
 
 def read_url(url):
     try:
-        return json.loads(urlopen(url).read())
+        filename = url.split('/')[-1]
+        filepath = f'scripts/{filename}'
+        data = urlopen(url).read()
+        with open(filepath, 'w') as f:
+            f.write(data)
+        return json.loads(data)
     except (IOError, HTTPError):
         print("ERROR: Invalid HTTP response from %s" % url)
     except json.decoder.JSONDecodeError:
@@ -41,10 +46,12 @@ def main():
     cidrs = {group: get_data(link) for group, link in IPRANGE_URLS.items()}
     if len(cidrs) != 2:
         raise ValueError("ERROR: Could process data from Google")
-    print("IP ranges for Google APIs and services default domains:")
+    goog_default_ips = {'prefixes': []}
     for ip in (cidrs["goog"] - cidrs["cloud"]).iter_cidrs():
-        print(ip)
-
+        print(type(ip))
+    filepath = 'scripts/goog-default.json'
+    with open(filepath, 'w') as f:
+        f.write(goog_default_ips)
 
 if __name__ == "__main__":
     main()
