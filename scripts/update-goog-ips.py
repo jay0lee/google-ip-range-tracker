@@ -1,5 +1,7 @@
 from __future__ import print_function
 
+import json
+
 import netaddr
 import requests
 
@@ -39,7 +41,7 @@ def main():
         print(type(ip))
     filepath = 'scripts/goog-default.json'
     with open(filepath, 'w') as f:
-        f.write(goog_default_ips)
+        f.write(json.dumps(goog_default_ips))
 
 if __name__ == "__main__":
     main()
