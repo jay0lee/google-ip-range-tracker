@@ -24,7 +24,10 @@ jobs:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies
       - run: pip install -r scripts/requirements.txt
-      
+
+      - name: Update IP ranges
+        run: python3 scripts/update-goog-ips.py
+
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
