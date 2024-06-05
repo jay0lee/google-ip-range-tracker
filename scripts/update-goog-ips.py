@@ -1,13 +1,7 @@
 from __future__ import print_function
 
-import json
-try:
-    from urllib import urlopen
-except ImportError:
-    from urllib.request import urlopen
-    from urllib.error import HTTPError
-
 import netaddr
+import requests
 
 IPRANGE_URLS = {
     "goog": "https://www.gstatic.com/ipranges/goog.json",
@@ -16,18 +10,12 @@ IPRANGE_URLS = {
 
 
 def read_url(url):
-    try:
-        filename = url.split('/')[-1]
-        filepath = f'scripts/{filename}'
-        data = urlopen(url).read()
-        with open(filepath, 'w') as f:
-            f.write(data)
-        return json.loads(data)
-    except (IOError, HTTPError):
-        print("ERROR: Invalid HTTP response from %s" % url)
-    except json.decoder.JSONDecodeError:
-        print("ERROR: Could not parse HTTP response from %s" % url)
-
+    filename = url.split('/')[-1]
+    filepath = f'scripts/{filename}'
+    response = requests.get(url)
+    with open(filepath, 'w') as f:
+        f.write(response.text)
+    return response.json
 
 def get_data(link):
     data = read_url(link)
