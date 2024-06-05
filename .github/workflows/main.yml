@@ -15,9 +15,6 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Check for updates
-        run: bash check-ips.sh
-
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
