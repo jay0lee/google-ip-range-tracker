@@ -15,7 +15,7 @@ def read_url(url):
     response = requests.get(url)
     with open(filepath, 'w') as f:
         f.write(response.text)
-    return response.json
+    return response.json()
 
 def get_data(link):
     data = read_url(link)
