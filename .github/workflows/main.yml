@@ -18,6 +18,13 @@ jobs:
       - name: Check for updates
         run: bash check-ips.sh
 
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip' # caching pip dependencies
+      - run: pip install -r scripts/requirements.txt
+      
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
