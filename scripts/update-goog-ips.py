@@ -16,16 +16,17 @@ def read_url(url):
 def get_data(url):
     data = read_url(url)
     filename = url.split('/')[-1]
-    filepath = f'scripts/{filename}'
+    filepath = f'ips/{filename}'
     print(f'{filename} published: {data.get("creationTime")}')
     cidrs = netaddr.IPSet()
-    for e in data.get('prefixes', []):
+    for i, e in enumerate(data.get('prefixes', [])):
         if 'ipv4Prefix' in e:
             e['ipPrefix'] = e['ipv4Prefix']
             del e['ipv4Prefix']
         if 'ipv6Prefix' in e:
             e['ipPrefix'] = e['ipv6Prefix']
             del e['ipv6Prefix']
+        data['prefixes'][i] = e
         cidrs.add(e.get("ipPrefix"))
     with open(filepath, 'w') as f:
         f.write(json.dumps(data, indent=2, sort_keys=True))
@@ -37,10 +38,11 @@ def main():
     cloud_ips = get_data(CLOUD_IPS_URL)
     goog_default_ips = {'prefixes': []}
     for ip_range in (goog_ips - cloud_ips).iter_cidrs():
-        goog_default_ips['prefixes'].append({'ipPrefix': ip_range.cidr})
+        ip_range_str = str(ip_range.cidr)
+        goog_default_ips['prefixes'].append({'ipPrefix': ip_range_str})
     filepath = 'ips/goog-default.json'
     with open(filepath, 'w') as f:
-        f.write(json.dumps(goog_default_ips))
+        f.write(json.dumps(goog_default_ips, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":
