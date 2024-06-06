@@ -10,17 +10,20 @@ jobs:
   check-ips:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip' # caching pip dependencies
-      - run: pip install -r scripts/requirements.txt
+
+      - name: Install Python requirements
+        run: pip install -r scripts/requirements.txt
 
       - name: Update IP ranges
         run: python3 scripts/update-goog-ips.py
