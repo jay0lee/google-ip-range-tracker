@@ -5,47 +5,43 @@ import json
 import netaddr
 import requests
 
-IPRANGE_URLS = {
-    "goog": "https://www.gstatic.com/ipranges/goog.json",
-    "cloud": "https://www.gstatic.com/ipranges/cloud.json",
-}
+GOOG_IPS_URL = 'https://www.gstatic.com/ipranges/goog.json'
+CLOUD_IPS_URL = 'https://www.gstatic.com/ipranges/cloud.json'
 
 
 def read_url(url):
-    filename = url.split('/')[-1]
-    filepath = f'scripts/{filename}'
     response = requests.get(url)
-    with open(filepath, 'w') as f:
-        f.write(response.text)
     return response.json()
 
-def get_data(link):
-    data = read_url(link)
-    if data:
-        print("{} published: {}".format(link, data.get("creationTime")))
-        cidrs = netaddr.IPSet()
-        for e in data["prefixes"]:
-            if "ipv4Prefix" in e:
-                cidrs.add(e.get("ipv4Prefix"))
-            if "ipv6Prefix" in e:
-                cidrs.add(e.get("ipv6Prefix"))
-        return cidrs
+def get_data(url):
+    data = read_url(url)
+    filename = url.split('/')[-1]
+    filepath = f'scripts/{filename}'
+    print(f'{filename} published: {data.get("creationTime")}')
+    cidrs = netaddr.IPSet()
+    for e in data.get('prefixes', []):
+        if 'ipv4Prefix' in e:
+            e['ipPrefix'] = e['ipv4Prefix']
+            del e['ipv4Prefix']
+        if 'ipv6Prefix' in e:
+            e['ipPrefix'] = e['ipv6Prefix']
+            del e['ipv6Prefix']
+        cidrs.add(e.get("ipPrefix"))
+    with open(filepath, 'w') as f:
+        f.write(json.dumps(data, indent=2, sort_keys=True))
+    return cidrs
 
 
 def main():
-    cidrs = {group: get_data(link) for group, link in IPRANGE_URLS.items()}
-    if len(cidrs) != 2:
-        raise ValueError("ERROR: Could process data from Google")
+    goog_ips = get_data(GOOG_IPS_URL)
+    cloud_ips = get_data(CLOUD_IPS_URL)
     goog_default_ips = {'prefixes': []}
-    for ip_range in (cidrs["goog"] - cidrs["cloud"]).iter_cidrs():
-        if netaddr.is_ipv4(ip_range.ip):
-            key = 'ipv4Prefix'
-        else:
-            key = 'ipv6Prefix'
-        goog_default_ips.append({key: ip_range.cidr})
-    filepath = 'scripts/goog-default.json'
+    for ip_range in (goog_ips - cloud_ips).iter_cidrs():
+        goog_default_ips.append({'ipPrefix': ip_range.cidr})
+    filepath = 'ips/goog-default.json'
     with open(filepath, 'w') as f:
         f.write(json.dumps(goog_default_ips))
+
 
 if __name__ == "__main__":
     main()
