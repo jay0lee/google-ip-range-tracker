@@ -37,7 +37,7 @@ def main():
     cloud_ips = get_data(CLOUD_IPS_URL)
     goog_default_ips = {'prefixes': []}
     for ip_range in (goog_ips - cloud_ips).iter_cidrs():
-        goog_default_ips.append({'ipPrefix': ip_range.cidr})
+        goog_default_ips['prefixes'].append({'ipPrefix': ip_range.cidr})
     filepath = 'ips/goog-default.json'
     with open(filepath, 'w') as f:
         f.write(json.dumps(goog_default_ips))
