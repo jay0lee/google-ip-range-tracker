@@ -1,6 +1,11 @@
 {
-  "creationTime": "2024-07-20T01:04:56.399238",
+  "creationTime": "2024-07-20T07:04:50.307191",
   "prefixes": [
+    {
+      "ipPrefix": "34.1.208.0/20",
+      "scope": "africa-south1",
+      "service": "Google Cloud"
+    },
     {
       "ipPrefix": "34.35.0.0/16",
       "scope": "africa-south1",
@@ -1534,6 +1539,11 @@
     {
       "ipPrefix": "2600:1900:40d0::/44",
       "scope": "europe-west3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.1.224.0/19",
+      "scope": "europe-west4",
       "service": "Google Cloud"
     },
     {
@@ -3342,5 +3352,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1721462696399"
+  "syncToken": "1721484290307"
 }
