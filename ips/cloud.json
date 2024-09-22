@@ -1,5 +1,5 @@
 {
-  "creationTime": "2024-09-22T07:06:07.156232",
+  "creationTime": "2024-09-22T13:04:55.478078",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -2142,6 +2142,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.2.0.0/20",
+      "scope": "northamerica-south1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.51.0.0/17",
       "scope": "northamerica-south1",
       "service": "Google Cloud"
@@ -2338,6 +2343,16 @@
     },
     {
       "ipPrefix": "34.46.0.0/16",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.55.0.0/16",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.56.0.0/15",
       "scope": "us-central1",
       "service": "Google Cloud"
     },
@@ -3407,5 +3422,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1727013967156"
+  "syncToken": "1727035495478"
 }
