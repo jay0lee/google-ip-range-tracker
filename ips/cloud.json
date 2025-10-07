@@ -1,5 +1,5 @@
 {
-  "creationTime": "2025-10-06T13:06:23.508767",
+  "creationTime": "2025-10-06T19:05:40.620591",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -993,6 +993,16 @@
     },
     {
       "ipPrefix": "34.15.128.0/17",
+      "scope": "asia-southeast3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.183.6.0/23",
+      "scope": "asia-southeast3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.6.0/23",
       "scope": "asia-southeast3",
       "service": "Google Cloud"
     },
@@ -4207,5 +4217,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1759781183508"
+  "syncToken": "1759802740620"
 }
