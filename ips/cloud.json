@@ -1,5 +1,5 @@
 {
-  "creationTime": "2025-10-18T13:07:14.834603",
+  "creationTime": "2025-10-18T19:09:11.602615",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -1938,6 +1938,11 @@
     },
     {
       "ipPrefix": "34.3.80.0/20",
+      "scope": "europe-west4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.4.80.0/20",
       "scope": "europe-west4",
       "service": "Google Cloud"
     },
@@ -4252,5 +4257,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1760818034834"
+  "syncToken": "1760839751602"
 }
