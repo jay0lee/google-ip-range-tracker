@@ -1,5 +1,5 @@
 {
-  "creationTime": "2025-10-24T13:05:10.115405",
+  "creationTime": "2025-10-24T19:07:04.533606",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -1202,6 +1202,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.158.224.0/20",
+      "scope": "europe-central2",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "2600:1900:4140::/44",
       "scope": "europe-central2",
       "service": "Google Cloud"
@@ -2108,6 +2113,11 @@
     },
     {
       "ipPrefix": "34.124.46.0/23",
+      "scope": "europe-west6",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.158.16.0/20",
       "scope": "europe-west6",
       "service": "Google Cloud"
     },
@@ -3307,6 +3317,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "2600:1902::/44",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.22.0.0/19",
       "scope": "us-central2",
       "service": "Google Cloud"
@@ -4257,5 +4272,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1761336310115"
+  "syncToken": "1761358024533"
 }
