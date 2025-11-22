@@ -1,5 +1,5 @@
 {
-  "creationTime": "2025-11-21T12:05:13.41738",
+  "creationTime": "2025-11-21T18:17:00.565255",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -424,6 +424,11 @@
     {
       "ipPrefix": "2600:1902:50::/44",
       "scope": "asia-northeast2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "8.228.128.0/18",
+      "scope": "asia-northeast3",
       "service": "Google Cloud"
     },
     {
@@ -1757,6 +1762,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "8.228.32.0/19",
+      "scope": "europe-west2",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.4.48.0/20",
       "scope": "europe-west2",
       "service": "Google Cloud"
@@ -2612,6 +2622,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.157.122.128/25",
+      "scope": "me-central2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.157.218.128/25",
+      "scope": "me-central2",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.166.0.0/16",
       "scope": "me-central2",
       "service": "Google Cloud"
@@ -3003,6 +3023,16 @@
     },
     {
       "ipPrefix": "34.153.225.0/24",
+      "scope": "southamerica-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.157.122.0/25",
+      "scope": "southamerica-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.157.218.0/25",
       "scope": "southamerica-west1",
       "service": "Google Cloud"
     },
@@ -3797,6 +3827,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "8.228.64.0/18",
+      "scope": "us-east4",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.4.32.0/20",
       "scope": "us-east4",
       "service": "Google Cloud"
@@ -4457,6 +4492,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "8.228.0.0/19",
+      "scope": "us-west4",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.16.128.0/17",
       "scope": "us-west4",
       "service": "Google Cloud"
@@ -4537,5 +4577,5 @@
       "service": "Google Cloud"
     }
   ],
-  "syncToken": "1763755513417"
+  "syncToken": "1763777820565"
 }
