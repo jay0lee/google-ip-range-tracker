@@ -1,5 +1,4 @@
 {
-  "creationTime": "2026-01-07T12:05:29.697177",
   "prefixes": [
     {
       "ipPrefix": "34.1.208.0/20",
@@ -4576,6 +4575,5 @@
       "scope": "us-west8",
       "service": "Google Cloud"
     }
-  ],
-  "syncToken": "1767816329697"
+  ]
 }
