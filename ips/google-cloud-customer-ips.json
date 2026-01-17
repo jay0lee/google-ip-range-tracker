@@ -2386,6 +2386,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "8.228.224.0/20",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.3.2.0/27",
       "scope": "global",
       "service": "Google Cloud"
@@ -2603,6 +2608,11 @@
     {
       "ipPrefix": "2600:1902:1a0::/44",
       "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "8.228.192.0/19",
+      "scope": "me-central2",
       "service": "Google Cloud"
     },
     {
