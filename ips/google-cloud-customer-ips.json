@@ -36,6 +36,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.71.0/24",
+      "scope": "asia-east1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.70.0/24",
+      "scope": "asia-east1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "35.185.128.0/19",
       "scope": "asia-east1",
       "service": "Google Cloud"
@@ -512,6 +522,16 @@
     },
     {
       "ipPrefix": "34.177.64.0/24",
+      "scope": "asia-northeast3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.183.72.0/24",
+      "scope": "asia-northeast3",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.71.0/24",
       "scope": "asia-northeast3",
       "service": "Google Cloud"
     },
@@ -1436,6 +1456,21 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.156.0.0/16",
+      "scope": "europe-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.183.74.0/24",
+      "scope": "europe-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.73.0/24",
+      "scope": "europe-west1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "35.187.0.0/17",
       "scope": "europe-west1",
       "service": "Google Cloud"
@@ -1577,6 +1612,11 @@
     },
     {
       "ipPrefix": "192.158.28.0/22",
+      "scope": "europe-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "207.175.0.0/16",
       "scope": "europe-west1",
       "service": "Google Cloud"
     },
@@ -2126,7 +2166,17 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.70.0/24",
+      "scope": "europe-west4",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.184.31.0/24",
+      "scope": "europe-west4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.69.0/24",
       "scope": "europe-west4",
       "service": "Google Cloud"
     },
@@ -2306,12 +2356,27 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.73.0/24",
+      "scope": "europe-west9",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.72.0/24",
+      "scope": "europe-west9",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "2600:1901:8120::/44",
       "scope": "europe-west9",
       "service": "Google Cloud"
     },
     {
       "ipPrefix": "8.228.224.0/20",
+      "scope": "global",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "8.232.0.0/15",
       "scope": "global",
       "service": "Google Cloud"
     },
@@ -2521,6 +2586,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.67.0/24",
+      "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.66.0/24",
+      "scope": "me-central1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "2600:1901:81c0::/44",
       "scope": "me-central1",
       "service": "Google Cloud"
@@ -2576,6 +2651,16 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.69.0/24",
+      "scope": "me-central2",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.68.0/24",
+      "scope": "me-central2",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "35.252.32.0/19",
       "scope": "me-central2",
       "service": "Google Cloud"
@@ -2626,7 +2711,17 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.61.0/24",
+      "scope": "me-west1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.184.3.128/25",
+      "scope": "me-west1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.64.0/24",
       "scope": "me-west1",
       "service": "Google Cloud"
     },
@@ -2706,7 +2801,17 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.75.0/24",
+      "scope": "northamerica-northeast1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.184.22.0/24",
+      "scope": "northamerica-northeast1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.74.0/24",
       "scope": "northamerica-northeast1",
       "service": "Google Cloud"
     },
@@ -3186,6 +3291,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.76.0/22",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.184.16.0/22",
       "scope": "us-central1",
       "service": "Google Cloud"
@@ -3197,6 +3307,11 @@
     },
     {
       "ipPrefix": "34.184.48.0/22",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.76.0/22",
       "scope": "us-central1",
       "service": "Google Cloud"
     },
@@ -3846,6 +3961,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.183.68.0/24",
+      "scope": "us-east4",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.184.12.0/22",
       "scope": "us-east4",
       "service": "Google Cloud"
@@ -3857,6 +3977,11 @@
     },
     {
       "ipPrefix": "34.184.59.0/24",
+      "scope": "us-east4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.67.0/24",
       "scope": "us-east4",
       "service": "Google Cloud"
     },
@@ -4077,6 +4202,16 @@
     },
     {
       "ipPrefix": "34.174.0.0/16",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.183.66.0/24",
+      "scope": "us-south1",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.184.65.0/24",
       "scope": "us-south1",
       "service": "Google Cloud"
     },
