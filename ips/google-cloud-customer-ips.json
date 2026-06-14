@@ -3596,6 +3596,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "136.71.0.0/16",
+      "scope": "us-central1",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "136.111.0.0/16",
       "scope": "us-central1",
       "service": "Google Cloud"
@@ -4176,7 +4181,17 @@
       "service": "Google Cloud"
     },
     {
-      "ipPrefix": "136.23.64.0/19",
+      "ipPrefix": "136.23.64.0/18",
+      "scope": "us-east4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "136.70.64.0/18",
+      "scope": "us-east4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "136.70.128.0/17",
       "scope": "us-east4",
       "service": "Google Cloud"
     },
