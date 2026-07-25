@@ -5096,6 +5096,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.127.145.0/24",
+      "scope": "us-west3",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.127.180.0/24",
       "scope": "us-west3",
       "service": "Google Cloud"
@@ -5177,6 +5182,11 @@
     },
     {
       "ipPrefix": "34.125.0.0/16",
+      "scope": "us-west4",
+      "service": "Google Cloud"
+    },
+    {
+      "ipPrefix": "34.127.146.0/24",
       "scope": "us-west4",
       "service": "Google Cloud"
     },
