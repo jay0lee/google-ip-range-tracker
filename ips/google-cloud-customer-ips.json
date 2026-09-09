@@ -4821,11 +4821,6 @@
       "service": "Google Cloud"
     },
     {
-      "ipPrefix": "8.237.64.0/18",
-      "scope": "us-south1",
-      "service": "Google Cloud"
-    },
-    {
       "ipPrefix": "34.0.128.0/19",
       "scope": "us-south1",
       "service": "Google Cloud"
