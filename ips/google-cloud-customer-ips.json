@@ -4851,6 +4851,11 @@
       "service": "Google Cloud"
     },
     {
+      "ipPrefix": "34.4.100.0/24",
+      "scope": "us-east7",
+      "service": "Google Cloud"
+    },
+    {
       "ipPrefix": "34.104.56.0/23",
       "scope": "us-east7",
       "service": "Google Cloud"
